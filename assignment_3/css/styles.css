@@ -1,0 +1,182 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #c6d5f0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #b4e09f;
+  border-radius:0;
+  border:0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #e27452;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0x;
+  line-height: .75;
+  margin-left: 20px;
+}
+hr {
+  border-color: #222;
+  margin-top: 0.0em;
+  margin-bottom: 0.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align:center;
+}
+
+
+#nav-list {
+  text-align:center;
+  height: 81px;
+  font-size: 1.2em;
+  
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #2914a1;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+
+
+#Chicken-tile, #Beef-tile, #Shushi-tile {
+
+  background-color: rgba(151, 14, 44, 0.767);
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+
+#Chicken-tile span,#Beef-tile span, #Shushi-tile span {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: #fff;
+  
+}
+/********** Large devices only **********/
+@media(min-width:1200px){
+  #Chicken-tile, #Beef-tile, #Shushi-tile {
+    margin: 0 auto 15px;
+    text-align:center;
+  }
+  #nav-list {
+    display: none;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 3vw; 
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #Chicken-tile, #Beef-tile, #Shushi-tile {
+    margin: 0 auto 15px;
+    text-align:center;
+  }
+  #nav-list {
+    display: none;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 3vw; 
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #Chicken-tile, #Beef-tile, #Shushi-tile {
+    margin: 0 auto 15px;
+    text-align:center;
+  } 
+  #nav-list {
+    display: none;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 3vw; 
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 1.7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  #Chicken-tile, #Beef-tile, #Shushi-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+    text-align:center;
+  }
+
+}
+
+
+/********** Super extra small devices Only **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  #Chicken-tile, #Beef-tile, #Shushi-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
